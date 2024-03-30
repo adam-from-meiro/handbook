@@ -1,6 +1,6 @@
 # State Paid Family Leave Provisions
 
-Below are states that offer state-sponsored Paid Family Leave and in which 37signals has employees. If you work in one of the following states and contribute to these programs, you may qualify for leave.
+Below are states that offer state-sponsored Paid Family Leave and in which Meiro has employees. If you work in one of the following states and contribute to these programs, you may qualify for leave.
 
 ## California Paid Family Leave
 

@@ -1,12 +1,12 @@
 # Our Internal Systems
 
-Besides the customer-facing applications, like the different versions of Basecamp, we have a number of internal systems that help us support, report, and operate the company. They are as follows:
+Besides the customer-facing applications, like the different versions of Meiro, we have a number of internal systems that help us support, report, and operate the company. They are as follows:
 
 ## Dash
 
-Dash is the main hub for everything that has to do with logging (like finding why a request is slow or whether an email has been delivered), reporting (everything from number of support cases handled to split of devices used to access Basecamp), application health (response times, job queue exceptions etc).
+Dash is the main hub for everything that has to do with logging (like finding why a request is slow or whether an email has been delivered), reporting (everything from number of support cases handled to split of devices used to access Meiro), application health (response times, job queue exceptions etc).
 
-[dash.37signals.com](https://dash.37signals.com)
+[dash.Meiro.com](https://dash.Meiro.com)
 
 ## Queenbee
 
@@ -14,13 +14,13 @@ Queenbee is our invoice, accounting, and identity system. Here you can look up a
 
 That’s an immense amount of power and we take its use very seriously. We only ever login as a customer after having been given explicit permission to do so, never preemptively. Our customers expect that their information is confidential, even from us, and we intend to honor that expectation at all times.
 
-[billing.37signals.com](https://billing.37signals.com)
+[billing.Meiro.com](https://billing.Meiro.com)
 
 ## The 37 command
 
 This is perhaps less of a system and more of an interface to all our other systems. The 37 command gives easy access to the production consoles for all the applications, which is often needed when diagnosing or fixing custom issues. It also allows you to directly grep and tail log files for live debugging, amongst other things.
 
-[github.com/basecamp/37](https://github.com/basecamp/37)
+[github.com/meiro/37](https://github.com/meiro/37)
 
 ## Sentry
 
@@ -30,10 +30,10 @@ We track programming exceptions on Sentry. When a customer hits a “Oops, somet
 
 ## Kandji
 
-[Kandji](https://kandji.io) is how we make sure all work laptops are securely configured and running the latest software updates. It helps us reduce our exposure to security incidents. You can read more about this in [Managing work devices](https://github.com/basecamp/handbook/blob/master/managing-work-devices.md).
+[Kandji](https://kandji.io) is how we make sure all work laptops are securely configured and running the latest software updates. It helps us reduce our exposure to security incidents. You can read more about this in [Managing work devices](https://github.com/meiro/handbook/blob/master/managing-work-devices.md).
 
 ## Shipshape
 
 Shipshape is the OG in-house tool for ensuring your work laptop is safe and secure. We still run it, but it's gradually being superceded by Kandji. When you’re given access to the company’s GitHub account, you can run Shipshape to be sure you’re up to code. Shipshape will also test your machine periodically to let you know (and our SIP team know) if your machine springs a leak and needs bailing out.
 
-[github.com/basecamp/shipshape](https://github.com/basecamp/shipshape)
+[github.com/meiro/shipshape](https://github.com/meiro/shipshape)
