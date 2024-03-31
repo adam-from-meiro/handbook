@@ -1,46 +1,46 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Welcome to Meiro
+description: Get started in Meiro.
 template: splash
 hero:
   title: |
-    Welcome to Starlight with
+    Welcome to 
     <span
       class="font-black text-transparent
-        bg-clip-text bg-gradient-to-b
+        bg-clip-text bg-gradient-to-r
         from-accent-700 to-accent-400
         dark:from-accent-500 dark:to-accent-200"
     >
-      Tailwind
+      Meiro
     </span>
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Happy to have you on board.
   image:
-    file: ../../assets/houston.webp
+    file: ../../assets/welcome.avif
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Start Here
+      link: /guides/getting-started/
       icon: right-arrow
       variant: primary
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    - text: Meiro Website
+      link: https://meiro.io
       icon: external
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+In this handbook, you’ll find everything you need to know about Meiro policies and benefits. Hopefully it also offers a small peek at our culture.
 
-<CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+If you’re new to the company, welcome! It’s important that you review everything in this handbook, so you know what’s expected of you and what you can expect from us. Please note that this handbook may be updated at any time, and it’s up to you to keep abreast of those updates – though we’ll do our best to notify all staff of major changes. GitHub repo is a great way to follow along with changes.
+
+Please reach out to the People Ops team or to your manager if you have any questions about the information contained in this handbook.
+
+## Useful Links
+
+<CardGrid>
+  <LinkCard
+  title="Meiro Notion"
+  description="Our detailed documentation, onboarding processes and high level initiatives"
+  href="https://www.notion.so/25ecabd80c344fcc9d614caab2f4bb7f?v=6a655e0416144d23be7aae320ae5815d&pvs=4"
+/>
+  <LinkCard title="Product documentation" description="Detailed documentation of our product" href="https://docs.meiro.io" />
 </CardGrid>

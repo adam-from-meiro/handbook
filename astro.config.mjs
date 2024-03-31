@@ -6,21 +6,35 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Docs with Tailwind',
+			title: 'Meiro Handbook',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				facebook: 'https://www.facebook.com/meiro.cdp/',
+				twitter: 'https://twitter.com/meiro_io',
+				instagram: 'https://www.instagram.com/meiro_io/',
+				linkedin: 'https://www.linkedin.com/company/meirocdp',
 			},
 			sidebar: [
 				{
 					label: 'Guides',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'Getting Started Guide', link: '/guides/getting-started/' },
+						{ label: 'Benefits and Perks', link: '/guides/benefits-and-perks/' },
+						{ label: 'How We Work', link: '/guides/how-we-work/' },
+						{ label: 'Important Meetings', link: '/guides/our-rituals/' },
+						{ label: 'Conflict of Interest', link: '/guides/moonlightning/' },
+						{ label: 'Code of Conduct', link: '/guides/moonlightning/' },
+						{ label: 'Career Journey', link: '/guides/making-a-career/' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Career',
+					items: [
+						{ label: 'Developers Ladder', link: '/guides/titles-for-programmers/' },
+						{ label: 'QA Engineer Ladder', link: '/guides/titles-for-qa/' },
+
+
+						
+					],
 				},
 			],
 			customCss: ['./src/tailwind.css'],
