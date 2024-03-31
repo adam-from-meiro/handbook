@@ -7,6 +7,11 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Meiro Handbook',
+			logo: {
+				light: '/src/assets/Meiro.svg',
+				dark: '/src/assets/MeiroDark.svg',
+				replacesTitle: true,
+			},
 			social: {
 				facebook: 'https://www.facebook.com/meiro.cdp/',
 				twitter: 'https://twitter.com/meiro_io',
