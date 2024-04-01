@@ -35,10 +35,10 @@ export default defineConfig({
         link: '/guides/our-rituals/'
       }, {
         label: 'Conflict of Interest',
-        link: '/guides/moonlightning/'
+        link: '/guides/moonlighting/'
       }, {
         label: 'Code of Conduct',
-        link: '/guides/moonlightning/'
+        link: '/guides/code-of-conduct/'
       }, {
         label: 'Career Journey',
         link: '/guides/making-a-career/'
