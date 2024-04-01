@@ -5,7 +5,7 @@ description: Career Journey for Programmers
 
 ## Development Leadership
 
- On Web and CDP programming teams, Lead Programmers (L4) and Principal Programmers (L5) act as tech leads to Junior - Senior Programmers (L1-3). All Leads and Principals report directly to our CTO. 
+ On Web and CDP programming teams, Lead Programmers (L4) and Principal Programmers (L5) act as tech leads to Junior - Senior Programmers (L1-3). All Leads and Principals report directly to our [CTO](../cto). CTO and [Head of R&D](../head-of-rnd) are specific roles overseeing the technological part of the company.
 
 Leads are responsible for:
 - Reviewing a report's substantial PRs before they're shipped.
@@ -14,7 +14,7 @@ Leads are responsible for:
 - Holding regular 1-1 sessions with team members with at least three weeks cadency
 - Identifying, mitigating and escalating slips in performance or process to CTO.
 
-The leads on the CDP teams also acts as a Coordinators. They're responsible for clarification of team priorities, liaising with other project teams, and maintaining general oversight of team resources. Leads can collaborate on fulfilling the functions above and are expected to fullfil all the requirements below.  
+The leads on the CDP teams also acts as a Coordinators. They're responsible for clarification of team priorities, liaising with other project teams, and maintaining general oversight of team resources. Leads can collaborate on fulfilling the functions above and are expected to fullfill all the requirements below.  
 
 
 
